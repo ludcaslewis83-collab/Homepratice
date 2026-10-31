@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Application Portal</title>
+    <style>
+        body{font-family:Arial; margin: 0; background-color: rgb(0, 255, 157);}
+        header{background: #0d47a1; color: white;padding: 20px;text-align: center;}
+        nav{background: #1565c0;padding: 10px;text-decoration: none;font-weight: bold}
+        .container {max-width: 900px;margin: 20px auto; background: white;padding: 25px;border-radius: 8px;}
+        h2{color: #0d47a1;}
+        input,select,textarea{width: 100%;padding: 10px;margin: 8px 0 15px;border: 1px solid #ccc;border-radius: 5px;box-sizing: border-box}
+        button{background: #0d47a1;color: white;padding: 12px 20px;border: none; border-radius: 5px;cursor: pointer;width: 100%; font-size: 16px;}
+        button :hover{background: #08306e}
+        footer{text-align: center;padding: 15px;background: #eee;margin-top: 20px}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Ludcas EassyApply</h1>
+        <p>Coustomer Application Portal- Fast & Secure</p>
+    </header>
+    <nav>
+        <a href="#apply">Apply Now</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container" id="about">
+        <h2>About Our Services</h2>
+        <p>We help Customers Apply For Jobs, and services online. Fill the Form below and our team will contact you within 24 hours.</p>
+        <ul>
+            <li>100% secure Application</li>
+            <li>Fast Approval</li>
+            <li>24/7 Support</li>
+        </ul>
+    </div>
+
+    <div class="container" id="apply">
+      <h2>Coustomer Application Form </h2>  
+      <form>
+        <label>Full Name</label>
+        <input type="text" placeholder="Lewis W Ludcas "required>
+
+        <label>Email Address</label>
+        <input type="email" placeholder="example@email.com" required>
+
+        <label>Phone Number</label>
+        <input type="tel" placeholder="+231 77XXXXXXX" required>
+
+        <label>Date of Birth</label>
+        <input type="date" required>
+
+
+
+        <label>Gender</label>
+        <select required>
+<option value="">Select Gender</option>
+<option>Male</option>
+<option>Female</option>
+<option>Other</option>
+        </select>
+        <label>Address</label>
+        <textarea rows="3" placeholder="ENter your address" required></textarea>
+
+        <label>Applying For</label>
+        <select required>
+        <option value="">select Service</option>
+        <option>Job Application</option>
+        <option>Account opening</option>
+        <option>Block Beating </option>
+        <option>House Rent</option>
+        <option>Customer Support</option>
+        </select>
+        <label>ID Document</label>
+        <input type="file" required>
+
+        <label>Additional Message</label>
+        <textarea rows="4" placeholder="Tell us More..."></textarea>
+        <button type="submit">Submit Application</button>
+      </form>
+    </div>
+
+    <div>
+        <h2>Contact Us</h2>
+        <p>Email:support@ludcasapply.com</p>
+        <p>Phone: +231 773294836 / 779182838</p>
+        <p>Location: Brewerville, Monrovia, Liberia </p>
+    </div>
+    <div class="container"id="Owner">
+        <h2>Meet The Owner</h2>
+        <div style="display: flex; align-items: center ; gap: 20px;flex-wrap: wrap;">
+            <img src="myphoto.jpg" alt="Owner Photo" style="width: 150px; height: 150px; border-radius: 25px; object-fit: cover; border: 3px solid #0d47a1;">
+            <div>
+                <h3 style="margin: 0;">Lewis W Ludcas</h3>
+                <p style="margin: 10px 0;"><b>Founder & CEO</b></p>
+                <p style="font-size: 20px;">Welcome to my website i build EassyApply To help people apply quickly.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2026 LudcasApply.All Rights Reserved.</p>
+    </footer>
+    
+</body>
+</html>
